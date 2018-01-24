@@ -1,4 +1,4 @@
-﻿using BenchmarkDotNet.Attributes;
+using BenchmarkDotNet.Attributes;
 using BenchmarkDotNet.Attributes.Exporters;
 using BenchmarkDotNet.Attributes.Jobs;
 using System;
@@ -18,25 +18,18 @@ namespace StringSwitch
             switch (Argument)
             {
                 case "Case1":
-                    //Console.WriteLine("Case1");
                     break;
                 case "Case2":
-                    //Console.WriteLine("Case2");
                     break;
                 case "Case3":
-                    //Console.WriteLine("Case3");
                     break;
                 case "Case4":
-                    //Console.WriteLine("Case4");
                     break;
                 case "Case5":
-                    //Console.WriteLine("Case5");
                     break;
                 case "Case6":
-                    //Console.WriteLine("Case6");
                     break;
                 case "Case7":
-                    //Console.WriteLine("Case7");
                     break;
             }
         }
