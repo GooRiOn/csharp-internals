@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringSwitch", "StringSwitch\StringSwitch.csproj", "{B3406325-CCFB-4C32-B6D9-F6CCE469D83E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterators", "Iterators\Iterators.csproj", "{FC3EE0F2-024F-44C7-AD8F-5BE42D7E9AAE}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3406325-CCFB-4C32-B6D9-F6CCE469D83E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3406325-CCFB-4C32-B6D9-F6CCE469D83E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3406325-CCFB-4C32-B6D9-F6CCE469D83E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3406325-CCFB-4C32-B6D9-F6CCE469D83E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC3EE0F2-024F-44C7-AD8F-5BE42D7E9AAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC3EE0F2-024F-44C7-AD8F-5BE42D7E9AAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC3EE0F2-024F-44C7-AD8F-5BE42D7E9AAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC3EE0F2-024F-44C7-AD8F-5BE42D7E9AAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
